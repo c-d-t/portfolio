@@ -1,12 +1,12 @@
-baseURL = "https://c-d-t.github.io/portfolio/"
+baseURL = "http://localhost:1313/portfolio"
 languageCode = "en-us"
 title = "Casey Tai"
 publishDir = "docs"
 
 [menu]
   [[menu.main]]
-    name = "Portfolio"
-    url = "/portfolio"
+    name = "Projects"
+    url = "/project"
     weight = -2
   [[menu.main]]
     name = "Blog"
