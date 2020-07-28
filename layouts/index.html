@@ -1,0 +1,30 @@
+{{ define "title" }}
+
+<div class="primary">
+  Hi I'm <span class="color">{{ .Params.name }}</span>
+</div>
+<div class="secondary">
+  <div id="slots">
+    {{ range .Params.slots }}
+
+    <p>{{ . }}</p>
+
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}
+
+{{ define "main" }}
+
+<div class="container flex">
+  <div id="about">
+    {{ .Content }}
+  </div>
+  <div id="action-buttons">
+    <img src="img/pfp.png">
+    <a href="/portfolio">See my work</a>
+  </div>
+</div>
+
+{{ end }}

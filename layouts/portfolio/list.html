@@ -1,0 +1,36 @@
+{{ define "title" }}
+  <div class="primary">
+    {{ .Title }}
+  </div>
+  <div class="secondary">You can see all my projects <a href="https://github.com/c-d-t">here</a></div>
+{{ end }}
+
+{{ define "main" }}
+
+<div id="list-container" class="container">
+  {{ range .Pages }}
+    <div class="list-item">
+      <a href="{{ .URL }}" class="thumbnail">
+        <img src="/img/thumbnails/{{ .Params.thumbnail }}" alt="thumbnail">
+      </a>
+      <div class="info">
+        <h1>
+          {{ .Title }}
+        </h1>
+        <p class="about">{{ .Params.about }}</p>
+        <div class="tools-container">
+          {{ range .Params.tools }}
+          <div>{{ . }}</div>
+          {{ end }}
+        </div>
+        <div class="action-buttons">
+          <a href="{{ .Params.source }}"><i class="fab fa-github"></i><div class="tooltip">Source</div></a>
+          <a target="_blank" rel="noopener noreferrer" href="{{ .Params.live }}"><i class="fas fa-window-maximize"></i><div class="tooltip">Live</div></a>
+          <a href="{{ .URL }}"><i class="fas fa-info-circle"></i><div class="tooltip">About</div></a>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+</div>
+
+{{ end }}

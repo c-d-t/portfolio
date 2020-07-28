@@ -1,0 +1,18 @@
+{{ define "title" }}
+
+<div class="primary">
+  {{ .Title }}
+</div>
+<div class="secondary">
+  {{ .Params.subtitle }}
+</div>
+
+{{ end }}
+
+{{ define "main" }}
+
+<div class="container">
+  <a href="mailto:{{ .Params.email }}"><i class="fas fa-envelope"></i> Email Me</a>
+</div>
+
+{{ end }}
