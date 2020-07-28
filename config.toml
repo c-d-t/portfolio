@@ -1,4 +1,4 @@
-baseURL = "http://c-d-t.github.io/portfolio"
+baseURL = "https://c-d-t.github.io/portfolio"
 languageCode = "en-us"
 title = "Casey Tai"
 publishDir = "docs"
