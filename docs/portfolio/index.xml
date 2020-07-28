@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Casey Tai</title>
-    <link>http://c-d-t.github.io/portfolio/portfolio/</link>
+    <link>https://c-d-t.github.io/portfolio/portfolio/</link>
     <description>Recent content in Portfolio on Casey Tai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://c-d-t.github.io/portfolio/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://c-d-t.github.io/portfolio/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Trist</title>
-      <link>http://c-d-t.github.io/portfolio/portfolio/trist/</link>
+      <link>https://c-d-t.github.io/portfolio/portfolio/trist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://c-d-t.github.io/portfolio/portfolio/trist/</guid>
+      <guid>https://c-d-t.github.io/portfolio/portfolio/trist/</guid>
       <description>About Trist is sort of a toy project of mine I have been using to learn web development. I am currently on my third iteration of Trist since I always run into the same problem as I make this site. I make the account registration, user friendships, and messaging, but I&amp;rsquo;m quickly overwhelmed by the sheer size of a project at the scale of a social network.
 So What Did I Do?</description>
     </item>
     
     <item>
       <title>Personal Site</title>
-      <link>http://c-d-t.github.io/portfolio/portfolio/personal-site/</link>
+      <link>https://c-d-t.github.io/portfolio/portfolio/personal-site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://c-d-t.github.io/portfolio/portfolio/personal-site/</guid>
+      <guid>https://c-d-t.github.io/portfolio/portfolio/personal-site/</guid>
       <description>About I used to have a small HTML website that I called my portfolio. There was many problems with it, the main one being it was a pain to update. If I wanted to edit an image, I would have to go into the source code and find the exact spot the &amp;lt;img&amp;gt; tag was. And if I wanted to add a new project, I had to copy paste an old project and update it&amp;rsquo;s content.</description>
     </item>
     
     <item>
       <title>Grid Cannon</title>
-      <link>http://c-d-t.github.io/portfolio/portfolio/grid-cannon/</link>
+      <link>https://c-d-t.github.io/portfolio/portfolio/grid-cannon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://c-d-t.github.io/portfolio/portfolio/grid-cannon/</guid>
+      <guid>https://c-d-t.github.io/portfolio/portfolio/grid-cannon/</guid>
       <description>About Grid cannon is a single player card game designed by Tom Francis &amp;ndash; An indie game developer.</description>
     </item>
     
     <item>
       <title>Dicktionary</title>
-      <link>http://c-d-t.github.io/portfolio/portfolio/dicktionary/</link>
+      <link>https://c-d-t.github.io/portfolio/portfolio/dicktionary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://c-d-t.github.io/portfolio/portfolio/dicktionary/</guid>
+      <guid>https://c-d-t.github.io/portfolio/portfolio/dicktionary/</guid>
       <description>About </description>
     </item>
     
