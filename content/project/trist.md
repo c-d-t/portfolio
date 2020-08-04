@@ -1,10 +1,10 @@
 ---
-thumbnail: trist.png
+thumbnail: trist.gif
 title: Trist
 tools: [MongoDb, Express, React, Node, Socket.io, DDD, HTML/CSS]
 weight: -10
 about: An anonymous social network.
-live: https://trist-app.herokuapp.com/
+live: https://tristchat.herokuapp.com/
 source: https://github.com/c-d-t/trist
 ---
 
